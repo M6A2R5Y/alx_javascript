@@ -1,11 +1,11 @@
-let globalVariable = welcome
+let globalVariable = 'welcome';
 
 function outer() 
 {
-    let course = Holberton
+    let course = 'Holberton'
     function inner() 
     {
-        let exclamation = !
+        let exclamation = '!'
         function inception() 
         {}
         inception()  //calls the function inception 
