@@ -7,9 +7,13 @@ function outer()
     {
         let exclamation = '!'
         function inception() 
-        {}
-        inception()  //calls the function inception 
+        {
+            alert( globalVariable + course + exclamation)
+        }
+        inception()  //calls the function inception
+        alert(globalVariable + course) 
     }
     inner() //calls the fumction inner
+    alert(globalVariable)
 }
 outer() //calls the function outer
