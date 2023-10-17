@@ -1,6 +1,10 @@
 function welcome(firstName, lastName) 
 //function named welcome with two arguments
 {
+
+  let firstName = 'Anything'
+  let lastName = 'Anything2'
+
     let fullName = firstName + " " + lastName;
     //concatenating firstName and lastName with a space in between to create a full name variable
   
