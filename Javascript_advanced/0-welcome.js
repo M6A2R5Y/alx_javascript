@@ -14,3 +14,4 @@ function welcome(firstName, lastName)
     displayFullName();
     //calling the displayFullName function
   }
+  welcome()
