@@ -35,7 +35,7 @@
 <p>
 <ul>
 <li>Try to make your page to look as close to the image below as possible</li>
-<img src = "https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/3/5bcb67bddaba890742ab.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20231025%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231025T064235Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8c55e4b890dbda382af787c031428cb6de43a378a6a79bae188a8f0c647b035a" alt="">
+<img src="C:\Users\Admin\Downloads\5bcb67bddaba890742ab.png" alt="">
 <li>Access your code with http://localhost:8080/0-index.html</li>
 <li>Use vanilla javascript to complete the task</li>
 </ul>
