@@ -54,5 +54,7 @@
 <li>Directory: Cookies_local_storage</li>
 <li>File: package.json, src/index.js, 0-index.html</li>
 </ul>
+<h3> 1. Create cookie with expiration date and specific path</h3>
+
 
 
