@@ -55,6 +55,55 @@
 <li>File: package.json, src/index.js, 0-index.html</li>
 </ul>
 <h3> 1. Create cookie with expiration date and specific path</h3>
+<h4> In a file 1-index.html: </h4>
+<p>
+<ul>
+<li>Reuse the code of the previous task</li>
+<li>Modify the way you are setting cookies to expire in 10 days</li>
+</ul>
+<h4>Requirements:</h4>
+<ul>
+<li>Access your code with http://localhost:8080/1-index.html</li>
+<li>Use vanilla javascript to complete the task</li>
+</ul>
+<h4>Repo:</h4>
+<ul>
+<li>GitHub repository: alx_javascript</li>
+<li>Directory: Cookies_local_storage</li>
+<li>File: 1-index.html</li>
+</ul>
+</p>
+<h3> 2. Read cookie</h3>
+<h4>In a file 2-index.html:</h4>
+<p>
+<ul>
+<li>Reuse the code of the previous task</li>
+<li>Create a function getCookie:
+<ul>
+<li>It accepts name as argument</li>
+<li>It should return the value of the cookie with the name passed in argument<?</li>
+<li>If the cookie does not exist, it should return an empty string</li>
+</ul>
+<ul>
+<li>Modify the function showCookies:
+<ul>
+<li>It should display the paragraph Email: EMAIL - Firstname: FIRSTNAME</li>
+</ul>
+</li>
+</ul>
+<h4>Requirements:</h4>
+<ul>
+<li>Access your code with http://localhost:8080/2-index.html</li>
+<li>Use vanilla javascript to complete the task</li>
+</ul>
+<h4>Repo:</h4>
+<ul>
+<li>GitHub repository: alx_javascript</li>
+<li>Directory: Cookies_local_storage</li>
+<li>File: 2-index.html</li>
+</ul>
+
+
 
 
 
