@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cookie1</title>
+    </head>
+    <body>
+        <h1>Cookie example</h1>
+        <label>First Name</label>
+        <input type="text" id="firstname"><br>
+        <label>Email:</label>
+        <input type=""text" id="email"><br>
+        <button onclick="setCookies()">Log Me In</button>
+        <button onclick="showCookies()">Show the Cookies</button>
+        <script>
+            function setCookies() 
+            {
+                var firstname = document.getElementById("firstname").value;
+                var email = document.getElementById("email").value;
+                var expirationDate = new Date();
+                expirationDate.setDate(expirationDate.getDate() + 10);
+                document.cookie="firstname=" + firstname + "; expires=" + expirationDate.toUTCString();
+                document.cookie="email=" + email + "; expires=" + expirationDate.toUTCString();
+                console.log("Cookies Set!");
+            }
+            function getCookie(name)//Function to get the value of a cookie by name
+            {
+                const cookie = document.cookie.split(";");//Split the document.cookie string into an array of individual cookies
+                for (let i = 0; i < cookie.length; i++)
+                {
+                    const cookie = cookies[i].trim();
+                    if (cookie.startsWith(name + '='))//Check if the current cookie starts with the specified name
+                    {
+                        return cookie.substring(name.length + 1);
+                    }
+                }
+                return '';
+            }
+            function showCookies()
+            {
+                const email = getCookie('email');
+                const firstname = getCookie('firstname');//Get the values of the "email" and "firstname" cookies
+                //Get references to the HTML elements where we will display the cookie values
+                const emailElement = document.createElementById('email');
+                const lastname = document.getElementById('firstname');
+                emailElement.textContent = email;
+                firstnameElement.textContent = firstname;
+            }
+            //Call the showCookies function when the page loads
+            showCookies();
+            function showCookies() 
+            {
+                var cookies = document.cookie.split(";");
+                var output ="";
+                for (var i=0; i<cookies.length; i++)
+                {
+                    var cookie = cookies[i].trim();
+                    if (cookie.indexOf("firstname=")==0||cookie.indexOf("email=")==0)
+                    {
+                        output += cookie.substring(cookie.indexOf("=")+1)+";";
+                    }
+                }
+                var p = document.createElement("p");
+                p.innerHTML = "Cookies:" + output;
+                document.body.appendChild(p);
+            }
+
+        </script>
+    </body>
+</html>
