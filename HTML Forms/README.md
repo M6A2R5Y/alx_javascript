@@ -76,9 +76,9 @@ Include fields for the user’s name, email, a select dropdown for their favorit
 
 <li>To implement the time and date selection, use the following input types:
 
-For time: <input type="time">
+For time: (<input type="time">)
 
-For date: <input type="date">
+For date: (<input type="date">)
 </li>
 </ul>
 <h2>Repo:</h2>
