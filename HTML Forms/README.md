@@ -13,7 +13,7 @@ At the end of this project, you are expected to be able to explain to anyone:
 <li>Use a <textarea> element for the message field to allow for a long description and not limit it to just one line.</li>
 <li>Add a submit button to submit the form.</li>
 </ul>
-<h2>Report</h2>
+<h2>Repo</h2>
 <ul>
 <li>GitHub repository: alx_html_css</li>
 <li>Directory: html_forms</li>
