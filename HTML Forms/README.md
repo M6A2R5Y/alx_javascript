@@ -19,3 +19,20 @@ At the end of this project, you are expected to be able to explain to anyone:
 <li>Directory: html_forms</li>
 <li>File: 0-contact-form.html</li>
 </ul>
+<h1>1. Registration Form</h1>
+mandatory
+<p>Design an HTML registration form with the following specifications:</p>
+<ul>
+<li>
+Include fields for the user’s name, email, password, and confirm password.</li>
+<li>Implement HTML5 validation attributes to ensure all fields are required,</li>
+<li>And the email field accepts a valid email format, and the password fields match.</li>
+<li>Use appropriate input types (e.g., email, password) and labels for each field.</li>
+</ul>
+<h2>Repo:</h2>
+<ul>
+<li>
+GitHub repository: alx_html_css</li>
+<li>Directory: html_forms</li>
+<li>File: 1-registration-form.html</li>
+</ul>
